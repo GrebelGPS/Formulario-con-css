@@ -1,0 +1,57 @@
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de estudiantes</title>
+    <link rel="stylesheet" href="css del formulario.css"
+</head>
+<body>
+   <div>
+
+   <h1>formulario de Estudiantes</h1>
+     <form action="/submit" method="post"></form>
+        
+
+        <input type="text" id="name" name="name" placeholder="Nombre" required><br><br>
+        
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Direccion" required></textarea><br><br>
+        
+        <input type="phone" id="phone" name="phone" placeholder="Telefono" required><br> <br>
+       
+         <input type="email" id="email" name="email" placeholder="Correo Electronico" required><br><br>
+        
+         <input type="number" id="number" name="number" placeholder="Edad" required><br><br>
+     
+<label for="Genero">Genero</label>
+     <select name="genero" id="select" >
+        <option value="masculino ">Masculino</option>
+        <option value="femenino">Femenino</option><br>
+
+</select><br>
+
+             <label for="select">Area Tecnica:</label><br>
+<select name="area tecnica" id="select">
+        <option value="eletricidad">Eletricidad</option>
+        <option value="contabilidad">Contabilidad</option>
+        <option value="informatica">Infotmatica </option>
+        <option value="gastronomia">Gastronomia</option>
+        <option value="enfermeria">Enfermeria</option>
+</select><br>
+
+<label for="radio">Curso</label>
+<input type="radio" id="curso1" name="curso" value="4to">
+<label for="curso1">4to</label>
+<input type="radio" id="curso2" name="curso" value="5to">
+<label for="curso2">5to</label>
+<input type="radio" id="curso3" name="curso" value="6to">
+<label for="curso3">6to</label><br>
+        
+        <div>
+        <button type="submit">Aceptar</button>
+        <button type="reset">Cancelar</button>
+ </div>
+
+</body>
+</html>
