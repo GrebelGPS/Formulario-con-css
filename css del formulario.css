@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hwb(104 51% 4%);
  
 }
 
@@ -11,10 +11,12 @@ h1 {
 }
 
 div {
-color: #000000;
+  background-color: hsl(0, 0%, 100%);
   text-align: center;
   border: 2px solid lab(0% 0 0);
- 
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  justify-self: center;
 }
 
   label {
@@ -24,14 +26,22 @@ color: #000000;
 
   
   select {
-color: lab(8.39% 34.39 -40.51);
+color: lab(0% 0 0);
 
 }
 
-input, textarea {
+input{
   color: hsl(0, 0%, 0%);
   background-color: lch(100% 0.01 296.81);
   padding: 2px;
+ }
+
+textarea {
+  color: hsl(0, 0%, 0%);
+  background-color: lch(100% 0.01 296.81);
+  padding: 2px;
+  width: 200px;
+  height: 50px;
  }
 
  label {
@@ -43,6 +53,7 @@ button {
   background-color: lab(88.55% -76.1 45.72);
   padding: 5px 10px;
   cursor: pointer; 
+  border: none;
 }
 
   button:hover {
