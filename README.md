@@ -6,7 +6,8 @@ Un formulario con nombre, direccion, telefono, edad genero etc
 Imágenes de la ejecución del proyecto:
 Inserte las imágenes de la ejecución del proyecto en distintos escenarios.
 
-<img width="1366" height="683" alt="Captura de pantalla (36)" src="https://github.com/user-attachments/assets/a14d24fd-8a90-4cec-b454-e1ac40589110" />
+<img width="1366" height="768" alt="Captura de pantalla (38)" src="https://github.com/user-attachments/assets/0e442f34-4952-462f-9cd9-8c2192274c16" />
+
 
 
 Uso o Ejecución:
